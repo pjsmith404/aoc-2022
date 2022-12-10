@@ -1,5 +1,5 @@
 tallied_calories = []
-with open('day1-input.txt') as f:
+with open('d1-input.txt') as f:
     calorie_count = 0
     for line in f:
         if line != '\n':

@@ -63,7 +63,7 @@ def calculate_choice(their_choice, expected_result):
 
     return your_choice
 
-with open('day2-input.txt') as f:
+with open('d2-input.txt') as f:
     total_score = 0
     for line in f:
         their_choice, expected_result = line.strip().split(' ')
